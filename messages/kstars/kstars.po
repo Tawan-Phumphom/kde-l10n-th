@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 11:48+0100\n"
+"POT-Creation-Date: 2025-03-20 08:25+0100\n"
 "PO-Revision-Date: 2010-12-12 02:08+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -1166,7 +1166,7 @@ msgstr ""
 #: ekos/align/opsastrometryindexfiles.ui:4738
 #: ekos/auxiliary/buildfilteroffsets.ui:65 tools/conjunctions.ui:227
 #: tools/eclipsetool.ui:183
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%p%"
 msgstr ""
 
@@ -13160,7 +13160,7 @@ msgstr "แสดงภาพ DSS"
 #. i18n: ectx: property (format), widget (QProgressBar, darkProgress)
 #. +> trunk5
 #: ekos/auxiliary/darklibrary.ui:550
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%v/%m"
 msgstr ""
 
@@ -15244,7 +15244,7 @@ msgstr ""
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:726
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:798
 #: ekos/auxiliary/stellarsolverprofileeditor.ui:819 ekos/capture/limits.ui:371
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "%"
 msgstr ""
 
@@ -16593,7 +16593,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_7)
 #. +> trunk5
 #: ekos/capture/camera.ui:1806
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Target is the name of the targetted object.</p>"
@@ -16645,14 +16645,14 @@ msgstr ""
 #. i18n: ectx: property (prefix), widget (QSpinBox, formatSuffixN)
 #. +> trunk5
 #: ekos/capture/camera.ui:1845
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "_%s"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, formatLabel)
 #. +> trunk5
 #: ekos/capture/camera.ui:1861
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Format is used to define the image file names by the use of placeholder tags.</p>"
@@ -18222,7 +18222,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, allowableNoiseLabel)
 #. +> trunk5
 #: ekos/capture/exposurecalculator/exposurecalculatordialog.ui:769
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Noise Increase %"
 msgstr ""
 
@@ -18526,7 +18526,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, hFRThresholdPercentage)
 #. +> trunk5
 #: ekos/capture/limits.ui:334
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Specify the % to apply to the HFR Check value appropriate to the selected algorithm, to use as the threshold to perform the HFR Check.</p>"
@@ -18633,7 +18633,7 @@ msgstr "เขียนทับ"
 #. i18n: ectx: property (toolTip), widget (QLabel, label_17)
 #. +> trunk5
 #: ekos/capture/opsmiscsettings.ui:57
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Minimal duration of a meridian flip in seconds. Increase this value if Ekos reports that a meridian flip has failed because the pier side did not change. A good estimation for this value is at least 50% of the typical duration of a meridian flip.</p>"
@@ -20365,7 +20365,7 @@ msgstr ""
 #: ekos/focus/opsfocusprocess.ui:666 ekos/focus/opsfocussettings.ui:361
 #: ekos/focus/opsfocussettings.ui:395 ekos/focus/opsfocussettings.ui:455
 #: ekos/scheduler/framingassistant.ui:449
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid " %"
 msgstr ""
 
@@ -22732,7 +22732,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QComboBox, focusAlgorithm)
 #. +> trunk5
 #: ekos/focus/opsfocusprocess.ui:373
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Select focus process algorithm:</p>"
@@ -23203,7 +23203,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QRadioButton, focusRingMaskRB)
 #. +> trunk5
 #: ekos/focus/opsfocussettings.ui:311
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>During Full Field focusing, this controls the size of an Annulus centred at the middle of the sensor to include for processing. Set inner % to zero to include the centre of the sensor and set outer % to 100 to include the outer edges of the sensor. </p>"
@@ -23271,7 +23271,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, focusFullFieldOuterRadius)
 #. +> trunk5
 #: ekos/focus/opsfocussettings.ui:449
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid ""
 "<html><head/><body>"
 "<p>Diameter of the outer circle to be excluded from focusing. The diameter is given as percentage of the image diagonal. Set to 100% to include the outer edges of the sensor. </p>"
@@ -23593,37 +23593,37 @@ msgid "PHD2: Star found, guiding is resuming..."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:568
+#: ekos/guide/externalguide/phd2.cpp:623
 #, kde-format
 msgid "PHD2 %1: %2"
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:622
+#: ekos/guide/externalguide/phd2.cpp:677
 #, kde-format
 msgid "PHD2: Looping Exposures Stopped."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:627
+#: ekos/guide/externalguide/phd2.cpp:682
 #, kde-format
 msgid "PHD2: Guiding Stopped."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:646
+#: ekos/guide/externalguide/phd2.cpp:701
 #, kde-format
 msgid "PHD2: Lock Position Set."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:657
+#: ekos/guide/externalguide/phd2.cpp:712
 #, kde-format
 msgid "PHD2: Star Selected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:666
+#: ekos/guide/externalguide/phd2.cpp:721
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -23631,7 +23631,7 @@ msgid "PHD2: Guiding...waiting for settle..."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:670
+#: ekos/guide/externalguide/phd2.cpp:725
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -23639,7 +23639,7 @@ msgid "PHD2: Dithering successful."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:676
+#: ekos/guide/externalguide/phd2.cpp:731
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -23647,25 +23647,25 @@ msgid "PHD2: Guiding started."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:687
+#: ekos/guide/externalguide/phd2.cpp:742
 #, kde-format
 msgid "PHD2: Lock Position Lost, continuing calibration."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:693
+#: ekos/guide/externalguide/phd2.cpp:748
 #, kde-format
 msgid "PHD2: Star Lost. Trying to reacquire for %1s."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:699
+#: ekos/guide/externalguide/phd2.cpp:754
 #, kde-format
 msgid "PHD2: Lock Position Lost."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:705
+#: ekos/guide/externalguide/phd2.cpp:760
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -23673,26 +23673,26 @@ msgid "PHD2: Guiding paused."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:710
+#: ekos/guide/externalguide/phd2.cpp:765
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "PHD2: Calibrating, timing out in %1s."
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:719
+#: ekos/guide/externalguide/phd2.cpp:774
 #, kde-format
 msgid "PHD2: Calibration turned to looping, failed."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:723
+#: ekos/guide/externalguide/phd2.cpp:778
 #, kde-format
 msgid "PHD2: Looping Exposures."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:729
+#: ekos/guide/externalguide/phd2.cpp:784
 #, fuzzy, kde-format
 #| msgctxt "Digitized Sky Survey"
 #| msgid "Show DSS Image"
@@ -23700,74 +23700,74 @@ msgid "PHD2: Dithering started."
 msgstr "แสดงภาพ DSS"
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:757
+#: ekos/guide/externalguide/phd2.cpp:812
 #, fuzzy, kde-format
 #| msgid "To file..."
 msgid "PHD2: Calibration is cleared"
 msgstr "ไปยังแฟ้ม..."
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:853
+#: ekos/guide/externalguide/phd2.cpp:908
 #, kde-format
 msgid "PHD2: DEC Guide Mode is Set to: %1"
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:863
+#: ekos/guide/externalguide/phd2.cpp:918
 #, kde-format
 msgid "PHD2: Exposure Time set to: "
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:871
+#: ekos/guide/externalguide/phd2.cpp:926
 #, kde-format
 msgid "PHD2: Valid Exposure Times: Auto, "
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:902
+#: ekos/guide/externalguide/phd2.cpp:957
 #, kde-format
 msgid "PHD2: Please set CCD and telescope parameters in PHD2, Pixel Scale is invalid."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:904
+#: ekos/guide/externalguide/phd2.cpp:959
 #, kde-format
 msgid "PHD2: Pixel Scale is %1 arcsec per pixel"
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:1019
+#: ekos/guide/externalguide/phd2.cpp:1074
 #, fuzzy, kde-format
 #| msgid "Write Error"
 msgid "PHD2 Error: unhandled '%1'"
 msgstr "การเขียนผิดพลาด"
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:1152
-#: ekos/guide/externalguide/phd2.cpp:1170
-#: ekos/guide/externalguide/phd2.cpp:1321
-#: ekos/guide/externalguide/phd2.cpp:1436
-#: ekos/guide/externalguide/phd2.cpp:1465
-#: ekos/guide/externalguide/phd2.cpp:1494
+#: ekos/guide/externalguide/phd2.cpp:1207
+#: ekos/guide/externalguide/phd2.cpp:1225
+#: ekos/guide/externalguide/phd2.cpp:1376
+#: ekos/guide/externalguide/phd2.cpp:1491
+#: ekos/guide/externalguide/phd2.cpp:1520
+#: ekos/guide/externalguide/phd2.cpp:1549
 #, kde-format
 msgid "PHD2 Error: Equipment not connected."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:1314
+#: ekos/guide/externalguide/phd2.cpp:1369
 #, kde-format
 msgid "PHD2: Guiding is already running."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:1380
+#: ekos/guide/externalguide/phd2.cpp:1435
 #, kde-format
 msgid "PHD2: Connecting Equipment. . ."
 msgstr ""
 
 #. +> trunk5
-#: ekos/guide/externalguide/phd2.cpp:1382
+#: ekos/guide/externalguide/phd2.cpp:1437
 #, kde-format
 msgid "PHD2: Disconnecting Equipment. . ."
 msgstr ""
@@ -34163,7 +34163,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_QuickHFR)
 #. +> trunk5
 #: fitsviewer/opsfits.ui:458
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "When computing the HFR, run it quickly by only looking at 25% of the image."
 msgstr ""
 
@@ -40024,7 +40024,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (XplanetLabelString), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1383
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the text of the first line of the label. By default, it says something like \"Looking at Earth\". Any instances of %t will be replaced by the target name, and any instances of %o will be replaced by the origin name."
 msgstr ""
 
@@ -40069,7 +40069,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (XplanetDateFormat), group (Xplanet)
 #. +> trunk5
 #: kstars.kcfg:1398
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the format for the date/time label. This format string is passed to strftime(3). The default is \"%c %Z\", which shows the date, time, and time zone in the locale’s appropriate date and time representation."
 msgstr ""
 
@@ -40799,7 +40799,7 @@ msgstr ""
 #. i18n: ectx: label, entry (QuickHFR), group (FITSViewer)
 #. +> trunk5
 #: kstars.kcfg:1696
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Compute the HFRs of normal images quickly by looking at the center 25% only."
 msgstr ""
 
@@ -41829,7 +41829,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (FocusFullFieldInnerRadius), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2260
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "During full field focusing, stars which are inside this percentage of the frame are filtered out of HFR calculation (default 0%). Detection algorithms may also have an inherent filter."
 msgstr ""
 
@@ -41843,7 +41843,7 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (FocusFullFieldOuterRadius), group (Focus)
 #. +> trunk5
 #: kstars.kcfg:2265
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "During full field focusing, stars which are outside this percentage of the frame are filtered out of HFR calculation (default 100%). Detection algorithms may also have an inherent filter."
 msgstr ""
 
@@ -93509,7 +93509,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, LunarPhase)
 #. +> trunk5
 #: tools/modcalcdaylength.ui:736
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Waxing gibbous (75%)"
 msgstr ""
 
@@ -96942,7 +96942,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, MoonIllumLabel)
 #. +> trunk5
 #: tools/wutdialog.ui:333
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Moon illum: 42%"
 msgstr ""
 
@@ -97747,7 +97747,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetLabelString)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:622
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the text of the first line of the label. By default, it says something like \"Looking at Earth\".  Any instances of %t will be replaced by the target name, and any instances of %o will be replaced by the origin name."
 msgstr ""
 
@@ -97768,7 +97768,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_XplanetDateFormat)
 #. +> trunk5
 #: xplanet/opsxplanet.ui:639
-#, kde-format, no-c-format
+#, no-c-format, kde-format
 msgid "Specify the format for the date/time label.  This format string is passed to strftime(3).  The default is \"%c %Z\", which shows the date, time, and time zone in the  locale’s  appropriate date and time representation."
 msgstr ""
 
