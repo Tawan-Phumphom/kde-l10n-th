@@ -20,15 +20,15 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-09 09:43+0100\n"
-"PO-Revision-Date: 2025-03-18 20:36+0700\n"
+"PO-Revision-Date: 2025-03-25 21:59+0700\n"
 "Last-Translator: Tawan Phumphon <tawan0981@outlook.co.th>\n"
-"Language-Team: Thai <kde-i18n-doc@kde.org>\n"
+"Language-Team: Thai\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #. +> trunk6 stable6
 #, kde-format
@@ -109,14 +109,14 @@ msgstr ""
 #, kde-format
 msgctxt "tag-format-pattern <numberedlist> rich"
 msgid "<ol>%1</ol>"
-msgstr ""
+msgstr "<ol>%1</ol>"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:77
 #, kde-format
 msgctxt "tag-format-pattern <numbereditem> rich"
 msgid "<li>%1</li>"
-msgstr ""
+msgstr "<li>%1</li>"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:82
@@ -163,6 +163,17 @@ msgid ""
 "<para>You might want to <emphasis>backup files and folders</emphasis> before p"
 "roceeding.</para>"
 msgstr ""
+"<para>คุณกำลังจะใช้สิทธิ์ของผู้ดูแลระบบ ในขณะที่ทำหน้าที่เป็นผู้ดูแลระบบ "
+"คุณสามารถเปลี่ยนแปลงหรือแทนที่ไฟล์หรือโฟลเดอร์ใดๆ ในระบบนี้ได้ "
+"ซึ่งรวมถึงรายการที่สำคัญต่อการทำงานของระบบนี้ด้วย</para> "
+"<para>คุณสามารถทำได้ <emphasis>ลบข้อมูลของผู้ใช้ทุกคน</emphasis>บนคอมพิวเตอร์น"
+"ี้และเพื่อ <emphasis> "
+"ทำลายการติดตั้งนี้จนไม่สามารถซ่อมแซมได้</emphasis>การเพิ่มตัวอักษรเพียงตัวเดีย"
+"วลงในโฟลเดอร์หรือชื่อไฟล์หรือเนื้อหาในนั้นสามารถทำให้ระบบแสดงผลได้ "
+"<emphasis>ไม่สามารถบูตได้</emphasis> </para>"
+"<para>อาจจะไม่มีคำเตือนอีกแม้ว่าคุณจะกำลังจะทำลายระบบนี้ก็ตาม</para><para>คุณอ"
+"าจต้องการ <emphasis>สำรองไฟล์และโฟลเดอร์</emphasis>ก่อนที่จะดำเนินการต่อ</para"
+">"
 
 #. +> trunk6 stable6
 #: admin/workerintegration.cpp:161
@@ -830,7 +841,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "This selects all files and folders in the current location."
-msgstr ""
+msgstr "นี่จะเลือกไฟล์และโฟลเดอร์ทั้งหมดในตำแหน่งปัจจุบัน"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1913 dolphinpart.cpp:169
@@ -867,21 +878,21 @@ msgctxt "@info:whatsthis"
 msgid ""
 "If the view has been split, this will pop the view in focus out into a new win"
 "dow."
-msgstr ""
+msgstr "หากมุมมองถูกแยกออก จะทำให้มุมมองที่โฟกัสปรากฏเป็นหน้าต่างใหม่"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1958
 #, kde-format
 msgctxt "@action:intoolbar Stash"
 msgid "Stash"
-msgstr ""
+msgstr "Stash"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1959
 #, kde-format
 msgctxt "@info"
 msgid "Opens the stash virtual directory in a split window"
-msgstr ""
+msgstr "เปิดไดเรกทอรีเสมือนของที่เก็บในหน้าต่างแยก"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1967
@@ -924,7 +935,7 @@ msgstr "หยุดการโหลด"
 #, kde-format
 msgctxt "@info"
 msgid "This stops the loading of the contents of the current folder."
-msgstr ""
+msgstr "นี่จะหยุดการโหลดเนื้อหาของโฟลเดอร์ปัจจุบัน"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1983
@@ -1316,14 +1327,14 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Focus Terminal Panel"
-msgstr ""
+msgstr "โฟกัสเทอร์มินัล"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2356
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move keyboard focus to and from the Terminal panel."
-msgstr ""
+msgstr "ย้ายโฟกัสแป้นพิมพ์ไปและมาจากแผงเทอร์มินัล"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2369
@@ -1349,6 +1360,8 @@ msgid ""
 "This displays all places in the places panel that have been hidden. They will "
 "appear semi-transparent and allow you to uncheck their \"Hide\" property."
 msgstr ""
+"การดำเนินการนี้จะแสดงสถานที่ทั้งหมดในแผงสถานที่ที่ถูกซ่อนไว้ สถานที่เหล่านั้นจ"
+"ะปรากฏแบบโปร่งแสง และคุณสามารถยกเลิกการเลือกคุณสมบัติ \"ซ่อน\" ได้"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2413
@@ -1408,6 +1421,7 @@ msgctxt "@info"
 msgid ""
 "Cannot rename: You do not have permission to rename items in this folder."
 msgstr ""
+"ไม่สามารถเปลี่ยนชื่อได้: คุณไม่มีสิทธิ์ในการเปลี่ยนชื่อรายการในโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2513 dolphinmainwindow.cpp:2530
@@ -1415,14 +1429,14 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "Cannot delete: You do not have permission to remove items from this folder."
-msgstr ""
+msgstr "ไม่สามารถลบได้: คุณไม่มีสิทธิ์ในการลบรายการจากโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2515
 #, kde-format
 msgctxt "@info"
 msgid "Cannot cut: You do not have permission to move items from this folder."
-msgstr ""
+msgstr "ไม่สามารถตัดได้: คุณไม่มีสิทธิ์ในการย้ายรายการจากโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2520
@@ -1432,34 +1446,36 @@ msgid ""
 "Cannot duplicate here: You do not have permission to create items in this fold"
 "er."
 msgstr ""
+"ไม่สามารถทำซ้ำที่นี่ได้: คุณไม่มีสิทธิ์สร้างรายการในโฟลเดอร์นี้"
+"er"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2542
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: No files selected."
-msgstr ""
+msgstr "ไม่สามารถคัดลอกไปยังมุมมองอื่นได้: ไม่ได้เลือกไฟล์"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2544
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: No files selected."
-msgstr ""
+msgstr "ไม่สามารถย้ายไปยังมุมมองอื่นได้: ไม่มีไฟล์ที่ถูกเลือก"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2563
 #, kde-format
 msgctxt "@info"
 msgid "Cannot copy to other view: The other view already contains these items."
-msgstr ""
+msgstr "ไม่สามารถคัดลอกไปยังมุมมองอื่นได้: มุมมองอื่นมีรายการเหล่านี้อยู่แล้ว"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2566
 #, kde-format
 msgctxt "@info"
 msgid "Cannot move to other view: The other view already contains these items."
-msgstr ""
+msgstr "ไม่สามารถย้ายไปยังมุมมองอื่นได้: มุมมองอื่นมีรายการเหล่านี้อยู่แล้ว"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2571
@@ -1469,6 +1485,7 @@ msgid ""
 "Cannot copy to other view: You do not have permission to write into the destin"
 "ation folder."
 msgstr ""
+"ไม่สามารถคัดลอกไปยังมุมมองอื่นได้: คุณไม่มีสิทธิ์ในการเขียนลงในโฟลเดอร์ปลายทาง"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2575
@@ -1478,6 +1495,7 @@ msgid ""
 "Cannot move to other view: You do not have permission to write into the destin"
 "ation folder."
 msgstr ""
+"ไม่สามารถย้ายไปยังมุมมองอื่นได้: คุณไม่มีสิทธิ์ในการเขียนลงในโฟลเดอร์ปลายทาง"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2581
@@ -1487,6 +1505,7 @@ msgid ""
 "Cannot move to other view: You do not have permission to move items from this "
 "folder."
 msgstr ""
+"ไม่สามารถย้ายไปยังมุมมองอื่นได้: คุณไม่มีสิทธิ์ในการย้ายรายการจากโฟลเดอร์นี้"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2605
@@ -1774,14 +1793,14 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu Tools"
 msgid "Defocus Terminal Panel"
-msgstr ""
+msgstr "ไม่โฟกัสเทอร์มินัล"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2962
 #, kde-format
 msgctxt "@action:inmenu View"
 msgid "Defocus Terminal Panel"
-msgstr ""
+msgstr "ไม่โฟกัสเทอร์มินัล"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:2973
@@ -1807,7 +1826,7 @@ msgstr "เทถังขยะทิ้ง"
 #: dolphinnavigatorswidgetaction.cpp:235
 #, kde-format
 msgid "Empties Trash to create free space"
-msgstr ""
+msgstr "ล้างถังขยะเพื่อสร้างพื้นที่ว่าง"
 
 #. +> trunk6 stable6
 #: dolphinnavigatorswidgetaction.cpp:261
