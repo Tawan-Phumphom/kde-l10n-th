@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-20 08:25+0100\n"
+"POT-Creation-Date: 2025-03-23 22:41+0100\n"
 "PO-Revision-Date: 2010-05-20 14:01+0700\n"
 "Last-Translator: Phuwanat Sakornsakolpat <narachai@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -14760,7 +14760,7 @@ msgstr "ภาพกลับด้าน"
 #. i18n: context: text @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:762
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgctxt "action"
 msgid "&Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -14771,7 +14771,7 @@ msgstr "เลือกใหม่"
 #. i18n: context: iconText @ Action (zoom_to_100pct), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:764 krita/kritamenu.action:765
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgctxt "action"
 msgid "Zoom to 100%"
 msgstr "เลือกใหม่"
@@ -25640,8 +25640,8 @@ msgstr "คุณสมบัติเครื่องมือ&ปัจจ�
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #. +> trunk5 stable5
 #: libs/resources/KisResourceStorage.h:117
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1924
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1928
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1927
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1931
 #: libs/ui/forms/wdgdisplaysettings.ui:213 libs/ui/KoDocumentInfo.cpp:37
 #: libs/widgets/KisDlgInternalColorSelector.cpp:327
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -25842,7 +25842,7 @@ msgstr "นำเข้ารูปภาพ"
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllGuidesButton)
 #. +> trunk5 stable5
 #: libs/resources/KisTagModel.cpp:126 libs/resources/KisTagModel.cpp:302
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:613
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:607
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:454
 #: plugins/dockers/griddocker/grid_config_widget.ui:885
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:721
@@ -26533,7 +26533,7 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:514
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1948
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1951
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgid "Warning(s):"
@@ -27556,8 +27556,8 @@ msgstr "ละลาย"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #. +> trunk5 stable5
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:40
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2234
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2236
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2237
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2239
 #: libs/ui/forms/wdgcolorsettings.ui:172
 #: libs/ui/forms/wdgdisplaysettings.ui:24
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:444
@@ -27673,8 +27673,8 @@ msgstr "ลบเลเยอร์"
 #. +> trunk5 stable5
 #: libs/ui/animation/VideoImportDialog.ui:34
 #: libs/ui/animation/wdg_animationrenderer.ui:16
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2204
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2206
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2207
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2209
 #: libs/ui/forms/wdgcolorsettings.ui:40
 #: libs/ui/forms/wdggeneralsettings.ui:333
 #: libs/ui/forms/wdgperformancesettings.ui:50 libs/ui/KoDocumentInfoDlg.cpp:91
@@ -28726,8 +28726,8 @@ msgstr "คุณสมบัติเลเยอร์"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1497
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1501
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1584
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1999
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2057 libs/ui/kis_paintop_box.cc:280
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2002
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2060 libs/ui/kis_paintop_box.cc:280
 #: libs/ui/kis_paintop_box.cc:281
 #: libs/ui/widgets/kis_custom_image_widget.cc:99
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:19
@@ -29208,21 +29208,28 @@ msgid "Software Renderer (very slow)"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1804
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1806
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr ""
 
+#. +> trunk5
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1807
+#, fuzzy, kde-format
+msgctxt "canvas renderer"
+msgid "OpenGL via ANGLE"
+msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
+
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1806
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1809
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr "อยู่เหนือ %1 ตัวปัจจุบัน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1813
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1816
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgctxt "canvas renderer"
@@ -29230,164 +29237,164 @@ msgid "Unknown"
 msgstr "ไม่ทราบ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1833
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1836
 #, fuzzy, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr "แปรงทาสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1910
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1913
 #, fuzzy, kde-format
 msgid "Display Id: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1911
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1914
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1912
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1915
 #, fuzzy, kde-format
 msgid "Min Luminance: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1913
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1916
 #, fuzzy, kde-format
 msgid "Max Luminance: %1"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1914
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1917
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1915
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1916
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1919
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1917
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1920
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1918
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1921
 #, fuzzy, kde-format
 msgid "White Point: %1, %2"
 msgstr "ตัวเลือกสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2086
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2089
 #, kde-format
 msgid "<b>Warning:</b> current display doesn't support HDR rendering"
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2197
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2200
 #, fuzzy, kde-format
 msgid "Configure Krita"
 msgstr "มุม:"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2214
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2217
 #, fuzzy, kde-format
 msgid "Keyboard Shortcuts"
 msgstr "ส่งออกเอกสารเป็น"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2216
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2219
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, fuzzy, kde-format
 msgid "Shortcuts"
 msgstr "ยืนยันการบันทึก"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2226
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2229
 #, fuzzy, kde-format
 msgid "Canvas Input Settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2227
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2230
 #, fuzzy, kde-format
 msgid "Canvas Input"
 msgstr "พื้นที่วาดภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2244
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2247
 #: plugins/dockers/logdocker/LogDockerDock.cpp:196
 #, kde-format
 msgid "Color Management"
 msgstr "การจัดการสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2246
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2249
 #, fuzzy, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2254
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2256
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2257
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2259
 #, kde-format
 msgid "Performance"
 msgstr "ประสิทธิภาพ"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2264
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2267
 #, fuzzy, kde-format
 msgid "Tablet settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2266
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2269
 #, fuzzy, kde-format
 msgid "Tablet"
 msgstr "น้ำเงิน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2274
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2277
 #, fuzzy, kde-format
 msgid "Canvas-only settings"
 msgstr "ตั้งค่า"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2276
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2279
 #, fuzzy, kde-format
 msgid "Canvas-only"
 msgstr "สี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2284
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2286
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2287
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2289
 #, fuzzy, kde-format
 msgid "Pop-up Palette"
 msgstr "จานสี"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2294
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2297
 #, fuzzy, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "ผู้เขียน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2296
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2299
 #: libs/ui/KoDocumentInfoDlg.cpp:114
 #: plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
@@ -29395,7 +29402,7 @@ msgid "Author"
 msgstr "ผู้เขียน"
 
 #. +> trunk5 stable5
-#: libs/ui/dialogs/kis_dlg_preferences.cc:2303
+#: libs/ui/dialogs/kis_dlg_preferences.cc:2306
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -31198,7 +31205,7 @@ msgstr "เวลารวมในการแก้ไข:"
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:49
 #: plugins/paintops/mypaint/MyPaintSensorPack.cpp:50
 #: plugins/paintops/spray/KisSprayShapeOptionModel.cpp:88
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 msgid "%"
 msgstr "%1%"
 
@@ -40140,7 +40147,7 @@ msgstr "เครื่องมือ"
 #. +> trunk5 stable5
 #: libs/ui/toolbox/KoToolBoxDocker.cpp:142
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:74
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:175
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:174
 #: libs/widgetutils/xmlgui/ktoolbar.cpp:345
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, fuzzy, kde-format
@@ -41274,7 +41281,7 @@ msgstr "ละลาย"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:45
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:154
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:153
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:169
 #: plugins/extensions/resourcemanager/KisResourceItemViewer.cpp:30
 #, fuzzy, kde-format
@@ -41284,7 +41291,7 @@ msgstr "ละลาย"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:51
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:158
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:157
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:177
 #: plugins/extensions/resourcemanager/KisResourceItemViewer.cpp:42
 #, fuzzy, kde-format
@@ -41295,7 +41302,7 @@ msgstr "นำเข้ารูปภาพ"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:56
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:166
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:165
 #: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:183
 #: plugins/extensions/resourcemanager/KisResourceItemViewer.cpp:48
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:206
@@ -41304,45 +41311,45 @@ msgid "Details"
 msgstr "ค่าปริยาย"
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:104
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:103
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:47
 #, kde-format
 msgid "The settings for this preset have changed from their default."
 msgstr ""
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:106
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:105
 #, fuzzy, kde-format
 msgid "Toggle showing presets"
 msgstr "ละลาย"
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:108
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:107
 #, fuzzy, kde-format
 msgid "Toggle showing scratchpad"
 msgstr "เพิ่มเลเยอร์..."
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:110
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:109
 #, fuzzy, kde-format
 #| msgid "Choose brush preset"
 msgid "Reload the brush preset"
 msgstr "เลือกแปรงที่ตั้งไว้"
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:111
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:110
 #, fuzzy, kde-format
 msgid "Rename the brush preset"
 msgstr "อยู่เหนือเลเยอร์ปัจจุบัน"
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:211
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:210
 #, fuzzy, kde-format
 msgid "Detach Brush Editor"
 msgstr "ปลายแปรง"
 
 #. +> trunk5 stable5
-#: libs/ui/widgets/kis_paintop_presets_editor.cpp:545
+#: libs/ui/widgets/kis_paintop_presets_editor.cpp:539
 #, fuzzy, kde-format
 msgctxt "%1 is the name of a brush engine"
 msgid "%1 Engine"
@@ -71645,7 +71652,7 @@ msgstr "เส้นทแยง"
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:982
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:998
-#, fuzzy, kde-format, no-c-format
+#, fuzzy, no-c-format, kde-format
 #| msgid "%1 %"
 msgid " %"
 msgstr "%1%"
