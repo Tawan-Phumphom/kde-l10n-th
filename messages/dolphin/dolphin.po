@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-03-09 09:43+0100\n"
-"PO-Revision-Date: 2025-03-25 21:59+0700\n"
+"PO-Revision-Date: 2025-03-28 11:49+0700\n"
 "Last-Translator: Tawan Phumphon <tawan0981@outlook.co.th>\n"
 "Language-Team: Thai\n"
 "Language: th\n"
@@ -785,6 +785,11 @@ msgid ""
 "<para>Use this help again on the search bar so we can have a look at it while "
 "the settings are explained.</para>"
 msgstr ""
+"<para>นี่จะช่วยให้คุณค้นหาไฟล์และโฟลเดอร์โดยการเปิด <emphasis>แถบค้นหา<"
+"/emphasis>คุณสามารถป้อนเงื่อนไขการค้นหาและระบุการตั้งค่าเพื่อค้นหา"
+"รายการที่คุณกำลังมองหา</para>"
+"<para>ใช้ความช่วยเหลือนี้อีกครั้งในแถบค้นหาเพื่อให้เราสามารถดูได้ในขณะที่อธิบา"
+"ยการตั้งค่า</para>"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1871
@@ -858,6 +863,7 @@ msgid ""
 "This selects all items that you have currently <emphasis>not</emphasis> select"
 "ed instead."
 msgstr ""
+"นี่จะเลือกทุกสิ่งที่คุณมีอยู่ในปัจจุบัน <emphasis>ไม่</emphasis> เลือกแทนแล้ว"
 
 #. +> trunk6 stable6
 #: dolphinmainwindow.cpp:1935
@@ -1852,7 +1858,7 @@ msgstr[0] "แถบตำแหน่ง"
 #, kde-format
 msgctxt "@info:shell about system packages"
 msgid "Could not find package %1."
-msgstr ""
+msgstr "ไม่พบแพ็คเกจ "
 
 #. +> trunk6 stable6
 #: dolphinpackageinstaller.cpp:89
@@ -2464,7 +2470,7 @@ msgstr "การเลือก"
 #, kde-format
 msgctxt "Textual representation of a file. %1 is the name of the file/folder."
 msgid "\"%1\""
-msgstr ""
+msgstr "\"%1\""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:26
@@ -2472,7 +2478,7 @@ msgstr ""
 msgctxt ""
 "Textual representation of two files. %1 and %2 are names of files/folders."
 msgid "\"%1\" and \"%2\""
-msgstr ""
+msgstr "\"%1\" and \"%2\""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:30
@@ -2481,7 +2487,7 @@ msgctxt ""
 "Textual representation of three files. %1, %2 and %3 are names of files/folder"
 "s."
 msgid "\"%1\", \"%2\" and \"%3\""
-msgstr ""
+msgstr "\"%1\", \"%2\" and \"%3\""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:37
@@ -2490,7 +2496,7 @@ msgctxt ""
 "Textual representation of four files. %1, %2, %3 and %4 are names of files/fol"
 "ders."
 msgid "\"%1\", \"%2\", \"%3\" and \"%4\""
-msgstr ""
+msgstr "\"%1\", \"%2\", \"%3\" and \"%4\""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:45
@@ -2499,7 +2505,7 @@ msgctxt ""
 "Textual representation of five files. %1, %2, %3, %4 and %5 are names of files"
 "/folders."
 msgid "\"%1\", \"%2\", \"%3\", \"%4\" and \"%5\""
-msgstr ""
+msgstr "\"%1\", \"%2\", \"%3\", \"%4\" and \"%5\""
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemlisttostring.cpp:65
@@ -2644,7 +2650,7 @@ msgstr "เมื่อวานนี้"
 #, kde-format
 msgctxt "@title:group Date: The week day name: dddd"
 msgid "dddd"
-msgstr ""
+msgstr "dddd"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2458
@@ -2652,7 +2658,7 @@ msgstr ""
 msgctxt ""
 "Can be used to script translation of \"dddd\"with context @title:group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2463
@@ -2704,7 +2710,7 @@ msgctxt ""
 "Can be used to script translation of \"'Yesterday' (MMMM, yyyy)\" with context"
 " @title:group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2507
@@ -2724,7 +2730,7 @@ msgctxt ""
 "Can be used to script translation of \"dddd (MMMM, yyyy)\" with context @title"
 ":group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2519
@@ -2746,7 +2752,7 @@ msgctxt ""
 "Can be used to script translation of \"'One Week Ago' (MMMM, yyyy)\" with cont"
 "ext @title:group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2540
@@ -2768,7 +2774,7 @@ msgctxt ""
 "Can be used to script translation of \"'Two Weeks Ago' (MMMM, yyyy)\" with con"
 "text @title:group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2561
@@ -2790,7 +2796,7 @@ msgctxt ""
 "Can be used to script translation of \"'Three Weeks Ago' (MMMM, yyyy)\" with c"
 "ontext @title:group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2582
@@ -2812,7 +2818,7 @@ msgctxt ""
 "Can be used to script translation of \"'Earlier on' MMMM, yyyy\" with context "
 "@title:group Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2603
@@ -2821,7 +2827,7 @@ msgctxt ""
 "@title:group The month and year: MMMM is full month name in current locale, an"
 "d yyyy is full year number"
 msgid "MMMM, yyyy"
-msgstr ""
+msgstr "MMMM, yyyy"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2607
@@ -2830,7 +2836,7 @@ msgctxt ""
 "Can be used to script translation of \"MMMM, yyyy\" with context @title:group "
 "Date"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2647 kitemviews/kfileitemmodel.cpp:2660
@@ -2899,7 +2905,7 @@ msgstr "แก้ไขเมื่อ"
 #: kitemviews/kfileitemmodel.cpp:2777
 msgctxt "@tooltip"
 msgid "The date format can be selected in settings."
-msgstr ""
+msgstr "สามารถเลือกรูปแบบวันที่ได้ในการตั้งค่า"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2776
@@ -2995,7 +3001,7 @@ msgstr "จำนวนบรรทัด"
 #: kitemviews/kfileitemmodel.cpp:2788
 msgctxt "@label"
 msgid "Date Photographed"
-msgstr ""
+msgstr "วันที่ถ่ายภาพ"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2788 kitemviews/kfileitemmodel.cpp:2789
@@ -3049,7 +3055,7 @@ msgstr "ศิลปิน"
 #: kitemviews/kfileitemmodel.cpp:2799
 msgctxt "@label"
 msgid "Audio"
-msgstr ""
+msgstr "เสียง"
 
 #. +> trunk6 stable6
 #: kitemviews/kfileitemmodel.cpp:2794
@@ -3211,7 +3217,7 @@ msgstr "ข้อผิดพลาดที่ไม่รู้จัก"
 msgctxt "@accessible rating"
 msgid "%1 and a half stars"
 msgid_plural "%1 and a half stars"
-msgstr[0] ""
+msgstr[0] "%1 และดาวครึ่งดวง"
 
 #. +> trunk6 stable6
 #: kitemviews/kstandarditemlistwidget.cpp:124
